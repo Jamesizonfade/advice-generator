@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | Advice generator app</title>
 
@@ -16,6 +18,20 @@
 </head>
 <body>
 
+  <div id="app-box">
+     <h3 id="advice-number">  </h3>
+    <p id="advice">Do not go gentle into that good night</p>
+
+    <div class="divide-pattern">
+      <img src="images/pattern-divider-desktop.svg" alt="pattern divider" width="350" height="auto">
+    </div>
+
+     <div id="generate-advice" class="dice-container">
+      <img src="images/icon-dice.svg" alt="icon-dice" width="90%">
+    </div>
+
+  </div>
+
   Advice #<!-- Advice ID goes here -->
 
   "<!-- Advice text goes here -->"
@@ -26,5 +42,9 @@
   </div>
 </body>
 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
 <script src="app.js"></script>
 </html>

@@ -1,0 +1,71 @@
+/* #202632 */
+
+/* #313A49 */
+
+/* #67EAB3 */
+
+body{
+    background-color: #202632;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h3{
+    font-size: 0.8rem;
+    color: #67EAB3;
+    letter-spacing: 0.2rem;
+}
+
+
+#app-box{
+    width: 400px;
+    height: 250px;
+    margin:10rem auto;
+    background-color: #313A49;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+#advice {
+    font-size: 1.5rem;
+    opacity: 0.7;
+}
+
+.divide-pattern {
+    left: 2rem;
+    position: absolute;
+    bottom: 3rem;
+}
+
+.dice-container {
+    background-color: #67EAB3;
+    margin: 1rem 0 2rem 1rem;
+    box-shadow: 10px rgba(31, 28, 28, 0.897);
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    position: absolute;
+    bottom: -1rem;
+    left: 43.3%;
+}
+
+.dice-container:hover {
+    width: 23px;
+    height: 23px;
+    left: 43%;
+    box-shadow:
+    /* 0 0 0px 0px #67EAB3, */
+    0 0 10px 8px #67eab342;
+    /* 0 0 140px 90px #67EAB3; */
+}
+
+.dice{
+    height: auto;
+}
